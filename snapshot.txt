@@ -1,0 +1,53 @@
+ShareChat — अभी ट्रेंडिंग
+Generated: 2026-05-03T07:22:01.450Z
+Sources: google_trends, newsapi, reddit_india, wikipedia  |  38 signals  |  42ms
+
+ 1. #IndiaVsAustralia            🔥  78  [sports]
+    भारत बनाम ऑस्ट्रेलिया
+    India vs Australia की चर्चा अभी ट्रेंड में है
+    sources: google_trends, reddit_india
+
+ 2. #WhatsApp                    🔥  72  [tech]
+    WhatsApp
+    WhatsApp की चर्चा अभी ट्रेंड में है
+    sources: newsapi, reddit_india
+
+ 3. #LokSabha                    🔥  59  [politics]
+    Lok Sabha
+    Lok Sabha की चर्चा अभी ट्रेंड में है
+    sources: google_trends, newsapi, reddit_india
+
+ 4. #AkshayaTritiya              🔥  57  [festival]
+    अक्षय तृतीया
+    Akshaya Tritiya की चर्चा अभी ट्रेंड में है
+    sources: google_trends, reddit_india, wikipedia
+
+ 5. #StrangerThings              🔥  57  [entertainment]
+    स्ट्रेंजर थिंग्स
+    Stranger Things की चर्चा अभी ट्रेंड में है
+    sources: google_trends, newsapi, reddit_india, wikipedia
+
+ 6. #RBIRepoRate                 🔥  50  [finance]
+    आरबीआई रेपो रेट
+    RBI Repo Rate की चर्चा अभी ट्रेंड में है
+    sources: google_trends, reddit_india
+
+ 7. #Heeramandi                  🔥  49  [entertainment]
+    हीरामंडी
+    Heeramandi की चर्चा अभी ट्रेंड में है
+    sources: newsapi, reddit_india, wikipedia
+
+ 8. #CharDham                    🔥  48  [devotional]
+    चार धाम
+    Char Dham की चर्चा अभी ट्रेंड में है
+    sources: google_trends, newsapi, wikipedia
+
+ 9. #Mumbai                      🔥  43  [weather]
+    Mumbai
+    Mumbai की चर्चा अभी ट्रेंड में है
+    sources: newsapi, reddit_india
+
+10. #IPLAuction2026              🔥  35  [sports]
+    आईपीएल नीलामी 2026
+    IPL Auction 2026 की चर्चा अभी ट्रेंड में है
+    sources: google_trends, newsapi

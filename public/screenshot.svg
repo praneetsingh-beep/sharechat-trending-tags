@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 932" width="430" height="932">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0B12"/>
+      <stop offset="100%" stop-color="#0B0B12"/>
+    </linearGradient>
+    <linearGradient id="g-sports" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F97316"/><stop offset="50%" stop-color="#EF4444"/><stop offset="100%" stop-color="#DB2777"/>
+    </linearGradient>
+    <linearGradient id="g-tech" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06B6D4"/><stop offset="50%" stop-color="#2563EB"/><stop offset="100%" stop-color="#3730A3"/>
+    </linearGradient>
+    <linearGradient id="g-politics" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D97706"/><stop offset="50%" stop-color="#C2410C"/><stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+    <linearGradient id="g-festival" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EC4899"/><stop offset="50%" stop-color="#E11D48"/><stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+    <linearGradient id="g-ent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D946EF"/><stop offset="50%" stop-color="#DB2777"/><stop offset="100%" stop-color="#9F1239"/>
+    </linearGradient>
+    <linearGradient id="g-finance" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10B981"/><stop offset="50%" stop-color="#059669"/><stop offset="100%" stop-color="#115E59"/>
+    </linearGradient>
+    <linearGradient id="g-dev" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EAB308"/><stop offset="50%" stop-color="#D97706"/><stop offset="100%" stop-color="#9A3412"/>
+    </linearGradient>
+    <linearGradient id="g-weather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/><stop offset="50%" stop-color="#2563EB"/><stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="g-logo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF3D7F"/><stop offset="100%" stop-color="#7C5CFF"/>
+    </linearGradient>
+    <style>
+      .h{font-family:'Noto Sans Devanagari','Inter',sans-serif;font-weight:800;fill:#fff}
+      .hs{font-family:'Noto Sans Devanagari',sans-serif;font-weight:600;fill:#fff}
+      .lbl{font-family:'Inter',sans-serif;font-size:10px;fill:rgba(255,255,255,.85);font-weight:600;letter-spacing:.5px;text-transform:uppercase}
+      .tag{font-family:'Inter',sans-serif;font-size:11px;fill:rgba(255,255,255,.85);font-weight:600}
+      .body{font-family:'Inter',sans-serif;fill:#F4F4F6}
+      .mute{font-family:'Inter',sans-serif;fill:#9A9AA8}
+      .hi-mute{font-family:'Noto Sans Devanagari',sans-serif;fill:#9A9AA8}
+      .pill{fill:#16161F;stroke:#23232E}
+    </style>
+  </defs>
+
+  <rect width="430" height="932" fill="url(#bg)"/>
+
+  <!-- Status bar mock -->
+  <rect x="0" y="0" width="430" height="44" fill="#0B0B12"/>
+  <text x="32" y="28" class="body" font-size="14" font-weight="600">9:41</text>
+
+  <!-- Header -->
+  <g transform="translate(0,44)">
+    <rect width="430" height="56" fill="#0B0B12"/>
+    <line x1="0" y1="56" x2="430" y2="56" stroke="#23232E" stroke-width="1"/>
+    <rect x="16" y="14" width="32" height="32" rx="8" fill="url(#g-logo)"/>
+    <text x="32" y="35" class="h" font-size="18" text-anchor="middle">S</text>
+    <text x="58" y="36" class="h" font-size="18" font-family="'Noto Sans Devanagari'">शेयरचैट</text>
+    <circle cx="380" cy="28" r="2" fill="#9A9AA8"/>
+    <circle cx="394" cy="28" r="10" fill="none" stroke="#9A9AA8" stroke-width="2"/>
+  </g>
+
+  <!-- Trending Header strip -->
+  <g transform="translate(0,108)">
+    <text x="16" y="22" class="h" font-size="17" font-family="'Noto Sans Devanagari'">अभी ट्रेंडिंग</text>
+    <text x="120" y="22" class="mute" font-size="11">भारत में</text>
+    <text x="320" y="22" class="mute" font-size="11" font-family="'Noto Sans Devanagari'">2 मिनट पहले</text>
+    <path d="M408 14 a8 8 0 1 1 -2 -5 l3 2 m-1 -3 v4 h-4" stroke="#9A9AA8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Story rail -->
+  <g transform="translate(0,140)">
+    <!-- Card 1: India vs Australia (top, larger) -->
+    <g transform="translate(16,0)">
+      <rect width="176" height="240" rx="18" fill="url(#g-sports)"/>
+      <text x="14" y="32" class="h" font-size="22">🏏</text>
+      <text x="160" y="22" class="lbl" text-anchor="end">🔥🔥🔥</text>
+      <text x="160" y="38" class="mute" font-size="10" fill="rgba(255,255,255,.7)" text-anchor="end">#1</text>
+      <text x="14" y="170" class="h" font-size="22" font-family="'Noto Sans Devanagari'">भारत बनाम</text>
+      <text x="14" y="196" class="h" font-size="22" font-family="'Noto Sans Devanagari'">ऑस्ट्रेलिया</text>
+      <text x="14" y="214" class="tag">#IndiaVsAustralia</text>
+      <text x="14" y="232" class="lbl">खेल</text>
+      <text x="160" y="232" class="lbl" text-anchor="end">78°</text>
+    </g>
+    <!-- Card 2: WhatsApp -->
+    <g transform="translate(204,8)">
+      <rect width="144" height="216" rx="18" fill="url(#g-tech)"/>
+      <text x="14" y="30" class="h" font-size="22">💻</text>
+      <text x="128" y="22" class="lbl" text-anchor="end">🔥🔥</text>
+      <text x="128" y="38" class="mute" font-size="10" fill="rgba(255,255,255,.7)" text-anchor="end">#2</text>
+      <text x="14" y="156" class="h" font-size="22" font-family="'Noto Sans Devanagari'">WhatsApp</text>
+      <text x="14" y="178" class="tag">#WhatsApp</text>
+      <text x="14" y="200" class="lbl">टेक</text>
+      <text x="128" y="200" class="lbl" text-anchor="end">72°</text>
+    </g>
+    <!-- Card 3: peek of next card -->
+    <g transform="translate(360,8)">
+      <rect width="80" height="216" rx="18" fill="url(#g-politics)"/>
+      <text x="14" y="30" class="h" font-size="22">🏛️</text>
+    </g>
+  </g>
+
+  <!-- Source pills strip -->
+  <g transform="translate(16,400)">
+    <text class="mute" font-size="10" font-family="'Noto Sans Devanagari'">स्रोत:</text>
+    <g transform="translate(36,-8)">
+      <rect width="78" height="14" rx="7" class="pill"/>
+      <text x="39" y="10" class="mute" font-size="9" text-anchor="middle">google trends</text>
+    </g>
+    <g transform="translate(120,-8)">
+      <rect width="48" height="14" rx="7" class="pill"/>
+      <text x="24" y="10" class="mute" font-size="9" text-anchor="middle">newsapi</text>
+    </g>
+    <g transform="translate(174,-8)">
+      <rect width="68" height="14" rx="7" class="pill"/>
+      <text x="34" y="10" class="mute" font-size="9" text-anchor="middle">reddit india</text>
+    </g>
+    <g transform="translate(248,-8)">
+      <rect width="60" height="14" rx="7" class="pill"/>
+      <text x="30" y="10" class="mute" font-size="9" text-anchor="middle">wikipedia</text>
+    </g>
+    <text x="382" y="2" class="mute" font-size="10" text-anchor="end">38 signals</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="0" y1="420" x2="430" y2="420" stroke="#23232E" stroke-width="1"/>
+
+  <!-- Mock feed post -->
+  <g transform="translate(0,432)">
+    <circle cx="32" cy="22" r="18" fill="url(#g-logo)"/>
+    <text x="60" y="22" class="h" font-size="14" font-family="'Noto Sans Devanagari'">रोहित यादव</text>
+    <text x="60" y="36" class="mute" font-size="10">15 मिनट पहले</text>
+    <text x="396" y="22" class="mute" font-size="20" text-anchor="end">⋯</text>
+    <text x="16" y="68" class="body" font-size="14" font-family="'Noto Sans Devanagari'">आज मौसम कितना बढ़िया है यार ☀️</text>
+    <rect x="16" y="84" width="398" height="160" rx="14" fill="url(#g-festival)"/>
+    <text x="16" y="270" class="mute" font-size="11">❤️ 2.1K</text>
+    <text x="76" y="270" class="mute" font-size="11">💬 128</text>
+    <text x="130" y="270" class="mute" font-size="11">↗️ शेयर</text>
+  </g>
+
+  <!-- Second post peek -->
+  <line x1="0" y1="724" x2="430" y2="724" stroke="#23232E" stroke-width="1"/>
+  <g transform="translate(0,736)">
+    <circle cx="32" cy="22" r="18" fill="#7C5CFF"/>
+    <text x="60" y="22" class="h" font-size="14" font-family="'Noto Sans Devanagari'">प्रिया शर्मा</text>
+    <text x="60" y="36" class="mute" font-size="10">1 घंटा पहले</text>
+    <text x="16" y="68" class="body" font-size="14" font-family="'Noto Sans Devanagari'">रील देख के हंस-हंस के पेट दुख गया 😂</text>
+  </g>
+
+  <!-- Bottom watermark -->
+  <text x="215" y="912" class="mute" font-size="9" text-anchor="middle">ShareChat APM Assignment — Praneet Singh Rekhi</text>
+</svg>

@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background: #0B0B12;
+  color: #F4F4F6;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: contain;
+}
+
+.font-hindi { font-family: 'Noto Sans Devanagari', system-ui, sans-serif; }
+
+/* mobile-only frame on desktop so the prototype always feels native */
+.phone-frame {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  background: #0B0B12;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: radial-gradient(circle at 30% 30%, #1a1030 0%, #0B0B12 60%);
+  }
+  .phone-frame {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #23232E;
+    border-radius: 36px;
+    overflow: hidden;
+    min-height: calc(100dvh - 48px);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+  }
+}
+
+/* hide scrollbar in horizontal stories rail */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* shimmer for skeleton */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #16161F 0%, #23232E 50%, #16161F 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+
+/* gentle pulse for the heat indicator */
+@keyframes flame {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.85; }
+}
+.flame { animation: flame 1.6s ease-in-out infinite; }
+
+/* hide native scroll on detail page */
+.snap-y { scroll-snap-type: y mandatory; }
+.snap-start { scroll-snap-align: start; }
